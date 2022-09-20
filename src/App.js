@@ -9,11 +9,13 @@ function App() {
     <div className="App">
       <NavBar />
       <Banner />
+      <div id="outer-div">
       {data.map(flower => {
         return (
           <FlowerTile {...flower} />
         )
       })}
+      </div>
     </div>
   );
 }

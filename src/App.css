@@ -45,5 +45,11 @@ nav {
   
 }
 .tile {
-  width: 25%;
+  width: 90%;
+}
+#outer-div {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
 }
