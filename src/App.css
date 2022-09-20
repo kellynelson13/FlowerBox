@@ -1,13 +1,14 @@
 .App {
   text-align: center;
   font-family: 'DM Sans', sans-serif;
+  background-color: whitesmoke;
 }
 li{
   list-style: none;
   display: inline-block;
   padding: 20px;
   margin: 0 25px;
-  color: white;
+  color: whitesmoke;
 }
 nav {
   background-color: #92b2ba;
@@ -37,9 +38,12 @@ nav {
 }
 #text h5 {
   margin: 5px;
-  background-color: aliceblue;
+  background-color: whitesmoke;
   padding: 5px;
   text-align: center;
   color: #f0a8bb;
   
+}
+.tile {
+  width: 25%;
 }
