@@ -45,22 +45,61 @@ nav {
   
 }
 .tile {
-  width: 90%;
+  width: 100%;
 }
 #outer-div {
   margin-top: 20px;
+  margin-left: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
+  gap: 20px;
+  
 }
 .info {
   text-align: left;
   margin-left: 15px;
+  color: #92b2ba;
+  font-weight: bold;
+  font-size: 15px;
+  
 }
 span {
   float: right;
   margin-right: 15px;
+  background-color: #f0a8bb;
+  color: white;
+  padding: 1px 4px;
 }
 .container {
   width: 90%;
+  background-color: white;
+  
 }
+.logo, .customer-service, .flowerbox {
+  width: 40%;
+  font-size: 11px;
+  text-align: left;
+  
+  padding-left: 70px;
+}
+.logo img {
+  width: 35%;
+  margin-top: 10px;
+}
+.footer {
+  display: flex;
+  
+  margin: 30px 10px;
+  padding: 10px;
+  background-color: #eeeeee;
+}
+.tags {
+  background-color: #eeeeee;
+  font-size: 8px;
+  color: rgb(177, 177, 177);
+  text-transform: uppercase;
+  margin: 5px;
+  
+}
+

@@ -8,8 +8,13 @@ const FlowerTile = (props) => {
         <div class="info">
           <p>
             {name}
-            <span>{price}</span>
+            <span>${price}</span>
           </p>
+          <div class="tag-container">
+          {tags.map(tag => {
+            return <span class="tags">{tag}</span>
+          })}
+          </div>
         </div>
       </div>
     
